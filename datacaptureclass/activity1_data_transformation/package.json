@@ -4,7 +4,7 @@
   "description": "data parser for activity one and two in UNIR master",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js input=temperaturas.txt json=jsonfile.json csv=csvfile.csv ",
+    "start": "node index.js input=temperaturas.txt json=jsonfile.json csv=csvfile.csv ",
     "test": "ECHO 'NO TEST AVAILABLE'"
   },
   "repository": {

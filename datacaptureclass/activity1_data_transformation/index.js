@@ -49,7 +49,8 @@ Longitud	Latitud	Enero	Febrero	Marzo	Abril	Mayo	Junio	Julio	Agosto	Septimbre	Oct
   constructor(str){
     //this._data = str.split("  ");
     this._avg = 0;
-    this._data = DataLine.buildCorrectString( str ,'º');
+    //this._data = DataLine.buildCorrectString( str ,'º');
+    this._data = DataLine.replaceStrange( str , "").split("@");
     for(var d in this._data){
       this._data[d] = parseFloat(this._data[d]);
       if( d > 1){
@@ -147,7 +148,7 @@ function checkOutput(programArguments , filetype){
     return false;
 }
 
-var welcomeMessage = "Welcome to this dataa parser algorithm. This includes getting the data into mongodb. Remember to use npm install to set up. To use: node index.js and Add csv='csvfilename.json' to output csv file and json='jsonfilename.json' to output json file. Totally optional.";
+var welcomeMessage = "Welcome to this data parser algorithm. This includes getting the data into mongodb. Remember to use npm install to set up. To use: node index.js and Add csv='csvfilename.json' to output csv file and json='jsonfilename.json' to output json file. Totally optional.";
 
 console.log(welcomeMessage);
 
@@ -163,6 +164,8 @@ var fileContents = ""+fs.readFileSync(inputFile);
 
 /*phase 1: replace , per .*/
 var fileContents = fileContents.replace(/\,/g,".");
+fileContents = fileContents.replace(/\ \ /g,"@");
+fileContents = fileContents.replace(/@@/g,"@");
 
 var fileLines = fileContents.split('\n');
 var i = 0;
