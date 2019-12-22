@@ -2,7 +2,7 @@
 
 *WARNING*
 
-The following exercise works for Activity 1.
+The following exercise works for Activity 1 and Activity 2. It exports the recordsets to both file types
 
 It does:
 - [x] Replaces all ',' with '.' (line 166)
