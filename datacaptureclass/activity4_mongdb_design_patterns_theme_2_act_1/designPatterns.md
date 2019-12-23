@@ -1,5 +1,5 @@
 # Ejercicio : Patrones de diseño
-1 página (Georgia 11, interlineado 1,5).
+
 
 ## Ejercicio 1: Colección de posts
 
