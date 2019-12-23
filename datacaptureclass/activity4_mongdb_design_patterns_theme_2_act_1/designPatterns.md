@@ -186,7 +186,9 @@ foto: “1004.png”
 }
 ```
 Dado que el objetivo es no tener en una misma colección los datos de los usuarios, se debe crear otra:
+
 Colección relacion:
+
 ```javascript
 {
 _id: 1,
