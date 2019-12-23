@@ -1,0 +1,20 @@
+﻿Datasets,,,,,,
+,,,,,,
+Nombre,,CSV,JSON,XML,,Url
+IRIS Dataset,,,1,,,https://www.kaggle.com/rtatman/iris-dataset-json-version
+Yelp Dataset,,,1,,,https://www.kaggle.com/yelp-dataset/yelp-dataset
+Tarot,,,1,,,https://www.kaggle.com/lsind18/tarot-json
+Game of thrones subtitels,,,1,,,https://www.kaggle.com/gunnvant/game-of-thrones-srt
+The movies dataset,,,1,,,https://www.kaggle.com/rounakbanik/the-movies-dataset
+,,,,,,
+Goodbooks,,,,1,,https://www.kaggle.com/zygmunt/goodbooks-10k
+Parent Grant,,,,1,,https://www.kaggle.com/uspto/patent-grant-full-text
+European Soccer,,,,1,,https://www.kaggle.com/jiezi2004/soccer
+Fruit images for object detection,,,,1,,https://www.kaggle.com/mbkinaci/fruit-images-for-object-detection
+Patent Assignment daily,,,,1,,https://www.kaggle.com/uspto/patent-assignment-daily
+,,,,,,
+Top 50 Spotify Songs,,1,,,,https://www.kaggle.com/uspto/patent-assignment-daily
+US Accidents (2.5 million records),,1,,,,https://www.kaggle.com/sobhanmoosavi/us-accidents
+College Basketball Dataset,,1,,,,https://www.kaggle.com/andrewsundberg/college-basketball-dataset
+Madrid Air BnB Data,,1,,,,https://www.kaggle.com/rusiano/madrid-airbnb-data
+FIFA 19 Complete Player Dataset,,1,,,,https://www.kaggle.com/karangadiya/fifa19
