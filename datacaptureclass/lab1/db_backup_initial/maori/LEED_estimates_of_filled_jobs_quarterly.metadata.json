@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"maori.LEED_estimates_of_filled_jobs_quarterly"}],"uuid":"81cb5125ff4544b0a0f479f85fa230a7"}

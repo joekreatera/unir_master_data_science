@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"maori.Business_operations_rates_activities_annual"}],"uuid":"a613d22e4ae64a8094c0b2279f958535"}

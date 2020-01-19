@@ -1,0 +1,28 @@
+{
+  "name": "data_csv2json_parser",
+  "version": "1.0.0",
+  "description": "data parser CSV to JSON formatter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js input=csvfile.csv json=jsonfile.json",
+    "test": "ECHO 'NO TEST AVAILABLE'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joekreatera/unir_master_data_science.git"
+  },
+  "keywords": [
+    "master",
+    "data",
+    "unir"
+  ],
+  "author": "Joe Mondragon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joekreatera/unir_master_data_science/issues"
+  },
+  "homepage": "https://github.com/joekreatera/unir_master_data_science#readme",
+  "dependencies": {
+    "mongodb": "^3.0.0"
+  }
+}

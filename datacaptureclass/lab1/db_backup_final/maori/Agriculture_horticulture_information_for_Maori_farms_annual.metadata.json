@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"maori.Agriculture_horticulture_information_for_Maori_farms_annual"}],"uuid":"1b7037e559cc48ea8ce1b4e8a8453dbb"}

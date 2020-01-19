@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"maori.Agriculture_livestock_information_for_Maori_farms_annual"}],"uuid":"a83d9bdc79364d89b0ca188845fae132"}
